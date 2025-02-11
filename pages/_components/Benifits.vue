@@ -3,7 +3,7 @@ const runtimeConfig = useRuntimeConfig();
 </script>
 <template>
 	<div
-		class="container mx-auto mt-20 mb-20"
+		class="container mx-auto mb-20 mt-20"
 		data-aos="fade-up"
 		data-aos-offset="400"
 		data-aos-duration="1000"
@@ -17,7 +17,7 @@ const runtimeConfig = useRuntimeConfig();
 			<a
 				:href="runtimeConfig.public.calendly"
 				target="_blank"
-				class="cursor-pointer"
+				class="cursor-pointer max-sm:mx-auto"
 			>
 				<Button class="flex items-center gap-2">
 					<Icon
@@ -30,12 +30,14 @@ const runtimeConfig = useRuntimeConfig();
 		</div>
 		<div class="rounded-4xl border border-gray-200 bg-white p-8">
 			<div class="grid grid-cols-1 md:grid-cols-2">
-				<div>
-					<img
-						class="w-56"
-						src="/assets/images/pacifiqlogo1.png"
-						alt=""
-					/>
+				<div class="">
+					<div class="first:h-16">
+						<img
+							class="w-56"
+							src="/assets/images/pacifiqlogo1.png"
+							alt=""
+						/>
+					</div>
 					<hr class="mt-8 h-[1px] text-gray-200" />
 					<div class="mt-5 flex items-center gap-3">
 						<span class="w-7 rounded-[6px] border border-gray-100 text-center"
@@ -110,8 +112,8 @@ const runtimeConfig = useRuntimeConfig();
 					</div>
 				</div>
 
-				<div>
-					<h1 class="text-xl font-semibold max-md:mt-10">
+				<div class="">
+					<h1 class="text-xl font-semibold first:h-16 max-md:mt-10">
 						Other Development Agencies
 					</h1>
 					<hr class="mt-[29px] h-[1px] text-gray-200" />

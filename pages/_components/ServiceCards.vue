@@ -6,7 +6,7 @@ const runtimeConfig = useRuntimeConfig();
 
 <template>
 	<div
-		class="container mt-10 rounded-4xl border border-gray-100 bg-white pb-10"
+		class="rounded-4xl container mt-10 border border-gray-100 bg-white pb-10"
 		data-aos="fade-up"
 		data-aos-offset="400"
 		data-aos-duration="1000"
@@ -22,7 +22,7 @@ const runtimeConfig = useRuntimeConfig();
 				3 services
 			</p>
 		</div>
-		<div class="grid gap-5 *:min-h-110">
+		<div class="grid gap-5 *:min-h-[420px]">
 			<ServicesImage
 				image="/images/voice-agent.jpg"
 				url="/voice-agents"
@@ -81,24 +81,22 @@ const runtimeConfig = useRuntimeConfig();
 				</h1>
 				<p class="font-semibold">
 					If you're unsure how AI could benefit your business, feel free to book
-					a 30-minute or 1-hour consultation session with Zain. During
-					the session, you'll learn how we've successfully implemented AI in
+					a 30-minute or 1-hour consultation session with Zain. During the
+					session, you'll learn how we've successfully implemented AI in
 					businesses similar to yours, providing insights to help you make a
 					more informed decision.
 				</p>
 				<a
 					:href="runtimeConfig.public.calendly"
 					target="_blank"
-					class="cursor-pointer"
+					class="cursor-pointer max-sm:mx-auto"
 				>
-					<Button
-						class="mt-10 flex items-center gap-1 px-3 hover:px-0 max-sm:text-base"
-					>
+					<Button class="mt-10 flex items-center gap-1 max-sm:text-base">
 						<Icon
 							name="bi:rocket-takeoff"
 							class="shrink-0"
 						/>
-						<span class="shrink-1"> Book 1:1 Consultation Session </span>
+						<span class=""> Book 1:1 Consultation Session </span>
 					</Button>
 				</a>
 			</div>

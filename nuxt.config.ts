@@ -1,5 +1,4 @@
 import type { NuxtPage } from 'nuxt/schema';
-import tailwindcss from '@tailwindcss/vite';
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -44,8 +43,12 @@ export default defineNuxtConfig({
 			calendly: 'https://calendly.com/zainul2002ca/30min'
 		}
 	},
-	vite: {
-		plugins: [tailwindcss()]
+	vite: {},
+	postcss: {
+		plugins: {
+			tailwindcss: {},
+			autoprefixer: {}
+		}
 	},
 	plugins: [{ src: '~/plugins/aos', mode: 'client' }]
 });

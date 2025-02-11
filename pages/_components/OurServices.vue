@@ -13,7 +13,7 @@ const runtimeConfig = useRuntimeConfig();
 			<h1 class="mb-14 pt-20 text-[34px] font-semibold max-md:text-center">
 				Our
 				<span
-					class="border-l-[4px] border-[#3a2db6] bg-gradient-to-r from-[#1023d052] to-[#3734980a] pr-[8px] pl-[8px]"
+					class="border-l-[4px] border-[#3a2db6] bg-gradient-to-r from-[#1023d052] to-[#3734980a] pl-[8px] pr-[8px]"
 					>Services</span
 				>
 			</h1>
@@ -27,7 +27,6 @@ const runtimeConfig = useRuntimeConfig();
 							<p
 								class="rounded-full bg-[#1020d01a] px-3 py-1 text-sm font-semibold text-[#0a1195]"
 							>
-							
 								Website/Social Media
 							</p>
 						</div>
@@ -43,7 +42,7 @@ const runtimeConfig = useRuntimeConfig();
 							target="_blank"
 						>
 							<button
-								class="bg-Black cursor-pointer rounded-full px-6 py-3 font-semibold text-white transition-all duration-200 hover:px-9"
+								class="cursor-pointer rounded-full bg-Black px-6 py-3 font-semibold text-white transition-all duration-200 hover:px-9"
 							>
 								Get Started
 							</button>
@@ -52,12 +51,12 @@ const runtimeConfig = useRuntimeConfig();
 					<div class="mt-6 grid grid-cols-2 gap-2 px-5">
 						<div class="flex items-start">
 							<div
-								class="mt-2 mr-2 h-[7px] w-[7px] rounded-full bg-[#b8b8b8]"
+								class="mr-2 mt-2 h-[7px] w-[7px] rounded-full bg-[#b8b8b8]"
 							/>
 							<div class="font-semibold md:w-[70%]">Advanced Automations</div>
 						</div>
 						<div class="flex items-start">
-							<p class="mt-2 mr-2 h-[7px] w-[7px] rounded-full bg-[#b8b8b8]" />
+							<p class="mr-2 mt-2 h-[7px] w-[7px] rounded-full bg-[#b8b8b8]" />
 							<p class="font-semibold md:w-[70%]">Social Media Integrations</p>
 						</div>
 					</div>
@@ -114,12 +113,12 @@ const runtimeConfig = useRuntimeConfig();
 					<div class="mt-6 grid grid-cols-2 gap-2 px-5 text-[#fbfbfb99]">
 						<div class="flex items-start">
 							<div
-								class="mt-2 mr-2 h-[7px] w-[7px] rounded-full bg-[#b8b8b8]"
+								class="mr-2 mt-2 h-[7px] w-[7px] rounded-full bg-[#b8b8b8]"
 							/>
 							<div class="font-semibold md:w-[70%]">Advanced Automations</div>
 						</div>
 						<div class="flex items-start">
-							<p class="mt-2 mr-2 h-[7px] w-[7px] rounded-full bg-[#b8b8b8]" />
+							<p class="mr-2 mt-2 h-[7px] w-[7px] rounded-full bg-[#b8b8b8]" />
 							<p class="font-semibold md:w-[70%]">Weekly Development Calls</p>
 						</div>
 					</div>
@@ -133,7 +132,7 @@ const runtimeConfig = useRuntimeConfig();
 							<p class="font-semibold md:w-[70%]">Rigorous Testing</p>
 						</div>
 						<div class="mt-2 flex items-start">
-							<p class="mt-2 mr-2 h-[7px] w-[7px] rounded-full bg-[#b8b8b8]" />
+							<p class="mr-2 mt-2 h-[7px] w-[7px] rounded-full bg-[#b8b8b8]" />
 							<p class="font-semibold md:w-[70%]">24/7 Priority Support</p>
 						</div>
 						<div class="mt-2 flex items-center">
@@ -147,7 +146,7 @@ const runtimeConfig = useRuntimeConfig();
 		<div
 			class="container mt-10 flex flex-col items-center justify-between gap-5 rounded-3xl bg-white px-5 py-10 md:flex-row"
 		>
-			<h1 class="text-2xl font-semibold">
+			<h1 class="text-center text-2xl font-semibold">
 				Book Our AI Agent Discovery Call Today.
 			</h1>
 			<a

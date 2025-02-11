@@ -28,7 +28,7 @@ watch(
 			<img
 				src="/images/pacifiqlogo1.png"
 				alt=""
-				class="mt-10 w-50 md:self-start"
+				class="mt-10 w-52 md:self-start"
 			/>
 			<div class="max-w-[350px]">
 				<div class="grid grid-cols-2 md:grid-cols-[100px_200px]">
@@ -47,8 +47,8 @@ watch(
 					</div>
 				</div>
 				<p class="mt-10 text-sm text-[#9b9a99] max-md:text-center">
-					© PACIFIQ AI 2025, All rights reserved. Kidd Terrace, Toronto,
-					ON M3J3S9, Canada
+					© PACIFIQ AI 2025, All rights reserved. Kidd Terrace, Toronto, ON
+					M3J3S9, Canada
 				</p>
 			</div>
 		</div>

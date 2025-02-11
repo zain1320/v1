@@ -15,7 +15,7 @@ const runtimeConfig = useRuntimeConfig();
 				<h1 class="text-4xl font-semibold">
 					Let's
 					<span
-						class="border-l-[4px] border-[#3a2db6] bg-gradient-to-r from-[#1023d052] to-[#3734980a] pr-[8px] pl-[8px]"
+						class="border-l-[4px] border-[#3a2db6] bg-gradient-to-r from-[#1023d052] to-[#3734980a] pl-[8px] pr-[8px]"
 					>
 						Connect
 					</span>
@@ -25,7 +25,7 @@ const runtimeConfig = useRuntimeConfig();
 					achieve your goals.
 				</p>
 			</div>
-			<div class="mt-10 rounded-3xl bg-white p-10 sm:mx-5">
+			<div class="mt-10 overflow-x-scroll rounded-3xl bg-white p-10 sm:mx-5">
 				<CalendlyInlineWidget :url="runtimeConfig.public.calendly" />
 			</div>
 		</div>

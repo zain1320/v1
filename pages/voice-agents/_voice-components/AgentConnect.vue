@@ -3,7 +3,7 @@ const runtimeConfig = useRuntimeConfig();
 </script>
 
 <template>
-	<section class="mt-64 pt-20 pb-14">
+	<section class="mt-32 pb-14 pt-20">
 		<div
 			class="container"
 			data-aos="fade-up"
@@ -16,7 +16,7 @@ const runtimeConfig = useRuntimeConfig();
 				<h1 class="text-2xl font-semibold max-sm:mb-5 max-sm:ml-16 md:text-4xl">
 					Let's
 					<span
-						class="border-l-[4px] border-[#3a2db6] bg-gradient-to-r from-[#1023d052] to-[#3734980a] pr-[8px] pl-[8px]"
+						class="border-l-[4px] border-[#3a2db6] bg-gradient-to-r from-[#1023d052] to-[#3734980a] pl-[8px] pr-[8px]"
 					>
 						Connect
 					</span>
@@ -26,7 +26,9 @@ const runtimeConfig = useRuntimeConfig();
 					achieve your goals.
 				</p>
 			</div>
-			<div class="mt-16 rounded-3xl bg-[#fbfbfb] py-6 max-sm:pl-6">
+			<div
+				class="mt-16 overflow-x-scroll rounded-3xl bg-[#fbfbfb] py-6 max-sm:pl-6"
+			>
 				<CalendlyInlineWidget :url="runtimeConfig.public.calendly" />
 			</div>
 		</div>

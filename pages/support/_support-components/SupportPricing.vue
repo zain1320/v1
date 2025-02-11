@@ -12,11 +12,11 @@ const runtimeConfig = useRuntimeConfig();
 			data-aos-duration="1000"
 		>
 			<h1
-				class="text-center text-2xl font-semibold max-sm:pb-20 md:mb-24 md:text-start md:text-5xl"
+				class="text-center text-3xl font-semibold max-sm:pb-20 md:mb-24 md:text-start md:text-5xl"
 			>
 				Support
 				<span
-					class="border-l-[4px] border-[#2310d0] bg-gradient-to-r from-[#1023d052] to-[#3734980a] pr-[8px] pl-[8px]"
+					class="border-l-[4px] border-[#2310d0] bg-gradient-to-r from-[#1023d052] to-[#3734980a] pl-[8px] pr-[8px]"
 					>Packages</span
 				>
 			</h1>
@@ -57,11 +57,11 @@ const runtimeConfig = useRuntimeConfig();
 				</div>
 				<div class="mt-6 grid grid-cols-1 px-5 sm:grid-cols-2">
 					<div class="flex items-start">
-						<div class="mt-2 mr-2 h-[7px] w-[7px] rounded-full bg-[#b8b8b8]" />
+						<div class="mr-2 mt-2 h-[7px] w-[7px] rounded-full bg-[#b8b8b8]" />
 						<div class="font-semibold md:w-[70%]">24/7 Monitoring</div>
 					</div>
 					<div class="flex items-start">
-						<p class="mt-2 mr-2 h-[7px] w-[7px] rounded-full bg-[#b8b8b8]" />
+						<p class="mr-2 mt-2 h-[7px] w-[7px] rounded-full bg-[#b8b8b8]" />
 						<p class="font-semibold md:w-[70%]">Latest AI Upgrades</p>
 					</div>
 				</div>
@@ -71,7 +71,7 @@ const runtimeConfig = useRuntimeConfig();
 						<p class="font-semibold md:w-[70%]">24/7 Priority Support</p>
 					</div>
 					<div class="mt-2 flex items-start max-sm:mb-1">
-						<p class="mt-2 mr-2 h-[7px] w-[7px] rounded-full bg-[#b8b8b8]" />
+						<p class="mr-2 mt-2 h-[7px] w-[7px] rounded-full bg-[#b8b8b8]" />
 						<p class="font-semibold md:w-[70%]">Data Analysis</p>
 					</div>
 					<div class="flex items-center">

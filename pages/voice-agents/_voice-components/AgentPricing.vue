@@ -14,7 +14,7 @@ const runtimeConfig = useRuntimeConfig();
 		>
 			Voice Agent
 			<span
-				class="border-l-[4px] border-[#3a2db6] bg-gradient-to-r from-[#1023d052] to-[#3734980a] pr-[8px] pl-[8px]"
+				class="border-l-[4px] border-[#3a2db6] bg-gradient-to-r from-[#1023d052] to-[#3734980a] pl-[8px] pr-[8px]"
 				>Pricing</span
 			>
 		</h1>
@@ -62,11 +62,11 @@ const runtimeConfig = useRuntimeConfig();
 				class="mt-6 grid grid-cols-1 gap-2 px-5 text-[#fbfbfb99] sm:grid-cols-2"
 			>
 				<div class="flex items-start">
-					<div class="mt-2 mr-2 h-[7px] w-[7px] rounded-full bg-[#b8b8b8]" />
+					<div class="mr-2 mt-2 h-[7px] w-[7px] rounded-full bg-[#b8b8b8]" />
 					<div class="font-semibold md:w-[70%]">Advanced Automations</div>
 				</div>
 				<div class="flex items-start">
-					<p class="mt-2 mr-2 h-[7px] w-[7px] rounded-full bg-[#b8b8b8]" />
+					<p class="mr-2 mt-2 h-[7px] w-[7px] rounded-full bg-[#b8b8b8]" />
 					<p class="font-semibold md:w-[70%]">High Quality Sound</p>
 				</div>
 			</div>
@@ -76,7 +76,7 @@ const runtimeConfig = useRuntimeConfig();
 					<p class="font-semibold md:w-[70%]">24/7 Priority Support</p>
 				</div>
 				<div class="mt-2 flex items-start max-sm:mb-1">
-					<p class="mt-2 mr-2 h-[7px] w-[7px] rounded-full bg-[#b8b8b8]" />
+					<p class="mr-2 mt-2 h-[7px] w-[7px] rounded-full bg-[#b8b8b8]" />
 					<p class="font-semibold md:w-[70%]">Weekly Development Calls</p>
 				</div>
 				<div class="flex items-center">
@@ -96,8 +96,8 @@ const runtimeConfig = useRuntimeConfig();
 				</h1>
 				<p class="font-semibold">
 					If you're unsure how AI could benefit your business, feel free to book
-					a 30-minute or 1-hour consultation session with Zain. During
-					the session, you'll learn how we've successfully implemented AI in
+					a 30-minute or 1-hour consultation session with Zain. During the
+					session, you'll learn how we've successfully implemented AI in
 					businesses similar to yours, providing insights to help you make a
 					more informed decision.
 				</p>
@@ -106,9 +106,7 @@ const runtimeConfig = useRuntimeConfig();
 					:href="runtimeConfig.public.calendly"
 					class="cursor-pointer"
 				>
-					<Button
-						class="mt-10 flex items-center gap-1 px-3 hover:px-0 max-sm:text-base"
-					>
+					<Button class="mt-10 flex items-center gap-3">
 						<img
 							src="https://cdn.prod.website-files.com/66b3f7d1ff69e1e7133402fc/66b3f7d1ff69e1e713340363_Phone.svg"
 							alt=""
