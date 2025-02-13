@@ -26,9 +26,9 @@ watch(
 			class="container flex flex-col justify-between gap-16 max-md:items-center md:flex-row"
 		>
 			<img
-				src="/images/pacifiqlogo1.png"
+				src="/images/pacifiq_logo_white.png"
 				alt=""
-				class="mt-10 w-52 md:self-start"
+				class="mt-5 w-52 md:self-start"
 			/>
 			<div class="max-w-[350px]">
 				<div class="grid grid-cols-2 md:grid-cols-[100px_200px]">

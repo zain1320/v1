@@ -12,14 +12,14 @@ onMounted(() => {
 
 <template>
 	<div
-		class="container flex flex-col items-center py-20 font-Poppins text-Black transition duration-300"
+		class="container flex flex-col items-center py-2 font-Poppins text-Black transition duration-300"
 		:class="isMounted ? 'translate-y-0 opacity-100' : 'translate-y-5 opacity-0'"
 	>
 		<NuxtLink to="/">
 			<img
-				src="/images/pacifiqlogo1.png"
+				src="/images/pacifiq_logo.png"
 				alt=""
-				class="max-w-72 cursor-pointer transition-all hover:scale-[120%]"
+				class="h-auto max-w-[375px] cursor-pointer transition-all hover:scale-[120%]"
 			/>
 		</NuxtLink>
 		<h3 class="my-5 mt-16 text-lg font-semibold">

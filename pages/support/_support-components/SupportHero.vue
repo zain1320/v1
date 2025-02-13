@@ -5,13 +5,13 @@ const runtimeConfig = useRuntimeConfig();
 <template>
 	<div class="">
 		<div
-			class="container flex flex-col items-center py-20 font-Poppins text-Black"
+			class="container flex flex-col items-center py-8 font-Poppins text-Black"
 		>
 			<NuxtLink to="/">
 				<img
-					src="/images/pacifiqlogo1.png"
+					src="/images/pacifiq_logo.png"
 					alt=""
-					class="max-w-64 cursor-pointer transition-all hover:scale-110"
+					class="h-auto max-w-[375px] cursor-pointer transition-all hover:scale-[120%]"
 				/>
 			</NuxtLink>
 			<h3 class="my-5 mt-16 text-lg font-semibold">

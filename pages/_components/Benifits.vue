@@ -28,13 +28,13 @@ const runtimeConfig = useRuntimeConfig();
 				</Button>
 			</a>
 		</div>
-		<div class="rounded-4xl border border-gray-200 bg-white p-8">
+		<div class="rounded-4xl border border-gray-200 bg-white p-9">
 			<div class="grid grid-cols-1 md:grid-cols-2">
 				<div class="">
 					<div class="first:h-16">
 						<img
 							class="w-56"
-							src="/assets/images/pacifiqlogo1.png"
+							src="/assets/images/pacifiq_logo_small.png"
 							alt=""
 						/>
 					</div>

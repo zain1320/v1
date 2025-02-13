@@ -4,13 +4,13 @@ const runtimeConfig = useRuntimeConfig();
 
 <template>
 	<div
-		class="container flex flex-col items-center pb-40 pt-20 font-Poppins text-Black md:pb-28"
+		class="container flex flex-col items-center pb-40 pt-8 font-Poppins text-Black md:pb-28"
 	>
 		<NuxtLink to="/">
 			<img
-				src="/images/pacifiqlogo1.png"
+				src="/images/pacifiq_logo.png"
 				alt=""
-				class="max-w-64 cursor-pointer transition-all hover:scale-125"
+				class="h-auto max-w-[375px] cursor-pointer transition-all hover:scale-[120%]"
 			/>
 		</NuxtLink>
 		<h3 class="my-5 mt-20 text-lg font-semibold">
