@@ -70,6 +70,16 @@ onMounted(() => {
 					>What are AI Agents?</Button
 				>
 			</a>
+			<a
+				class="block max-sm:w-full max-sm:*:w-full"
+				href="#ai-agents"
+			>
+				<Button
+					is-light
+					class="max-sm:text-start"
+					>Try it out at (647) 691-5367
+				</Button>
+			</a>
 		</div>
 	</div>
 </template>
