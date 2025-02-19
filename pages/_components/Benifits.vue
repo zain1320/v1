@@ -3,13 +3,13 @@ const runtimeConfig = useRuntimeConfig();
 </script>
 <template>
 	<div
-		class="container mx-auto mb-20 mt-20"
+		class="container mx-auto mb-20 mt-8"
 		data-aos="fade-up"
 		data-aos-offset="400"
 		data-aos-duration="1000"
 	>
 		<div
-			class="mb-20 flex flex-col items-start justify-between gap-14 md:flex-row md:items-center md:gap-0"
+			class="mb- flex flex-col items-start justify-between gap-14 md:flex-row md:items-center md:gap-0"
 		>
 			<h1 class="mx-auto text-2xl font-semibold md:mx-0 md:text-5xl">
 				Benefits that Drive Success

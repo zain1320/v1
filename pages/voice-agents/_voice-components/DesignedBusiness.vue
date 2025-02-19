@@ -3,7 +3,7 @@ const runtimeConfig = useRuntimeConfig();
 </script>
 
 <template>
-	<div class="py-5 md:py-32">
+	<div class="py-5 md:py-16">
 		<div
 			id="pricing"
 			class="container mt-20"
@@ -16,7 +16,7 @@ const runtimeConfig = useRuntimeConfig();
 			>
 				Designed for any
 				<span
-					class="border-l-[4px] border-[#3a2db6] bg-gradient-to-r from-[#1023d052] to-[#3734980a] pr-[8px] pl-[8px]"
+					class="border-l-[4px] border-[#3a2db6] bg-gradient-to-r from-[#1023d052] to-[#3734980a] pl-[8px] pr-[8px]"
 					>Business</span
 				>
 			</h1>
@@ -58,7 +58,7 @@ const runtimeConfig = useRuntimeConfig();
 				</div>
 			</div>
 			<div
-				class="container mt-6 flex flex-col items-center justify-between gap-5 rounded-4xl bg-white px-6 py-6 md:mt-10 md:flex-row md:px-10 md:py-10"
+				class="rounded-4xl container mt-6 flex flex-col items-center justify-between gap-5 bg-white px-6 py-6 md:mt-10 md:flex-row md:px-10 md:py-10"
 			>
 				<h1 class="text-xl font-semibold md:text-2xl">
 					Book Our AI Agent Discovery Call Today.

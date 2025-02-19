@@ -10,7 +10,7 @@ const runtimeConfig = useRuntimeConfig();
 		data-aos-duration="1000"
 	>
 		<div class="container mb-20">
-			<h1 class="mb-14 pt-20 text-[34px] font-semibold max-md:text-center">
+			<h1 class="mb-10 pt-10 text-[34px] font-semibold max-md:text-center">
 				Our
 				<span
 					class="border-l-[4px] border-[#3a2db6] bg-gradient-to-r from-[#1023d052] to-[#3734980a] pl-[8px] pr-[8px]"

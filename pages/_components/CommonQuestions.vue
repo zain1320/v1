@@ -4,7 +4,7 @@ import Question from './Question.vue';
 
 <template>
 	<section
-		class="font-Poppins bg-[#f4f4f4] py-20"
+		class="bg-[#f4f4f4] py-10 font-Poppins"
 		data-aos="fade-up"
 		data-aos-offset="400"
 		data-aos-duration="1000"

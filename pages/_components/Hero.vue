@@ -12,17 +12,17 @@ onMounted(() => {
 
 <template>
 	<div
-		class="container flex flex-col items-center py-2 font-Poppins text-Black transition duration-300"
+		class="py-0.1 container flex flex-col items-center font-Poppins text-Black transition duration-300"
 		:class="isMounted ? 'translate-y-0 opacity-100' : 'translate-y-5 opacity-0'"
 	>
 		<NuxtLink to="/">
 			<img
 				src="/images/pacifiq_logo.png"
 				alt=""
-				class="h-auto max-w-[375px] cursor-pointer transition-all hover:scale-[120%]"
+				class="h-auto max-w-[325px] cursor-pointer transition-all hover:scale-[120%]"
 			/>
 		</NuxtLink>
-		<h3 class="my-5 mt-16 text-lg font-semibold">
+		<h3 class="my-5 mt-10 text-lg font-semibold">
 			Helping Businesses Transition to AI
 		</h3>
 		<h1
@@ -45,7 +45,7 @@ onMounted(() => {
 				<Button class="flex items-center gap-2">
 					<Icon
 						name="mynaui:telephone"
-						size="20"
+						size="18"
 					/>
 					Book A Call
 				</Button>
@@ -72,12 +72,12 @@ onMounted(() => {
 			</a>
 			<a
 				class="block max-sm:w-full max-sm:*:w-full"
-				href="#ai-agents"
+				href="tel:+16476915367"
 			>
 				<Button
 					is-light
-					class="max-sm:text-start"
-					>Try it out at (647) 691-5367
+					class="rounded-full bg-green-500 px-7 py-2 font-bold text-white shadow-md transition duration-300 ease-in-out hover:bg-green-600"
+					>Try it out now!
 				</Button>
 			</a>
 		</div>

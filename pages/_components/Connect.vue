@@ -5,7 +5,7 @@ const runtimeConfig = useRuntimeConfig();
 <template>
 	<section
 		id="contact-us"
-		class="bg-[#f4f4f4] py-20"
+		class="bg-[#f4f4f4] py-5"
 		data-aos="fade-up"
 		data-aos-offset="400"
 		data-aos-duration="1000"

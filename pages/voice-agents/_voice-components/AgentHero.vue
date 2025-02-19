@@ -10,10 +10,10 @@ const runtimeConfig = useRuntimeConfig();
 			<img
 				src="/images/pacifiq_logo.png"
 				alt=""
-				class="h-auto max-w-[375px] cursor-pointer transition-all hover:scale-[120%]"
+				class="h-auto max-w-[325px] cursor-pointer transition-all hover:scale-[120%]"
 			/>
 		</NuxtLink>
-		<h3 class="my-5 mt-16 text-lg font-semibold">
+		<h3 class="my-5 mt-10 text-lg font-semibold">
 			Helping Businesses Transition to AI
 		</h3>
 		<div class="flex flex-col items-center">
