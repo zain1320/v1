@@ -20,18 +20,21 @@ watch(
 <template>
 	<footer
 		ref="footerRef"
-		class="bg-Black py-5"
+		class="bg-Black py-10"
 	>
 		<div
 			class="container flex flex-col justify-between gap-16 max-md:items-center md:flex-row"
 		>
 			<img
-				src="/images/pacifiq_logo_white.png"
+				src="/images/pacifiqlogo1.png"
 				alt=""
-				class="mt-1 w-52 md:self-start"
+				class="mt-10 w-52 md:self-start"
 			/>
 			<div class="max-w-[350px]">
 				<div class="grid grid-cols-2 md:grid-cols-[100px_200px]">
+					<div>
+						<p class="mt-3 text-sm text-[#9b9a99]">Menu</p>
+					</div>
 					<div>
 						<ul
 							class="space-y-3 text-xl text-white *:cursor-pointer *:transition *:duration-300 *:hover:opacity-80"

@@ -3,15 +3,17 @@ const runtimeConfig = useRuntimeConfig();
 </script>
 <template>
 	<div
-		class="container mx-auto mb-20 mt-8"
+		class="container mx-auto mb-20 mt-20"
 		data-aos="fade-up"
 		data-aos-offset="400"
 		data-aos-duration="1000"
 	>
 		<div
-			class="mb- flex flex-col items-start justify-between gap-14 md:flex-row md:items-center md:gap-0"
+			class="mb-20 flex flex-col items-start justify-between gap-14 md:flex-row md:items-center md:gap-0"
 		>
-			<h1 class="mx-auto text-2xl font-semibold md:mx-0 md:text-5xl">
+			<h1
+				class="mx-auto text-center text-2xl font-semibold md:mx-0 md:text-5xl"
+			>
 				Benefits that Drive Success
 			</h1>
 			<a
@@ -28,13 +30,13 @@ const runtimeConfig = useRuntimeConfig();
 				</Button>
 			</a>
 		</div>
-		<div class="rounded-4xl border border-gray-200 bg-white p-9">
+		<div class="rounded-3xl border border-gray-200 bg-white p-8">
 			<div class="grid grid-cols-1 md:grid-cols-2">
 				<div class="">
 					<div class="first:h-16">
 						<img
-							class="w-56"
-							src="/assets/images/pacifiq_logo_small.png"
+							class="mx-auto w-56"
+							src="/assets/images/pacifiqlogo1.png"
 							alt=""
 						/>
 					</div>

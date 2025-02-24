@@ -4,31 +4,31 @@ const runtimeConfig = useRuntimeConfig();
 
 <template>
 	<div
-		class="container flex flex-col items-center pb-40 pt-4 font-Poppins text-Black md:pb-28"
+		class="container flex flex-col items-center pb-40 pt-20 font-Poppins text-Black md:pb-28"
 	>
 		<NuxtLink to="/">
 			<img
-				src="/images/pacifiq_logo.png"
+				src="/images/pacifiqlogo1.png"
 				alt=""
-				class="h-auto max-w-[325px] cursor-pointer transition-all hover:scale-[120%]"
+				class="max-w-64 cursor-pointer transition-all hover:scale-125"
 			/>
 		</NuxtLink>
-		<h3 class="my-5 mt-10 text-lg font-semibold">
+		<h3 class="my-5 mt-20 text-lg font-semibold">
 			Helping Businesses Transition to AI
 		</h3>
 		<div class="flex flex-col items-center">
 			<h1
-				class="max-w-sm text-center font-Poppins text-4xl font-bold leading-snug md:text-7xl"
+				class="max-w-sm text-center font-Poppins text-4xl font-bold md:text-5xl"
 			>
 				Advanced
+				<span
+					class="border-l-[4px] border-[#2310d0] bg-gradient-to-r from-[#1023d052] to-[#3734980a] pl-[8px] pr-[8px] max-md:whitespace-nowrap"
+				>
+					AI Text Chatbots
+				</span>
 			</h1>
-			<span
-				class="max-w-xl whitespace-nowrap border-l-[4px] border-[#2310d0] bg-gradient-to-r from-[#1023d052] to-[#3734980a] pl-[8px] pr-[8px] text-center font-Poppins text-5xl font-bold leading-snug md:text-7xl"
-			>
-				AI Text Chatbots
-			</span>
 		</div>
-		<div class="mt-5 gap-3 *:my-3 max-sm:w-full max-sm:*:mx-auto sm:flex">
+		<div class="mt-5 gap-3 max-sm:w-full max-sm:*:mx-auto sm:flex">
 			<a
 				class="block max-sm:w-full max-sm:*:w-full"
 				:href="runtimeConfig.public.calendly"

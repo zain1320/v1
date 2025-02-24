@@ -3,7 +3,7 @@ const runtimeConfig = useRuntimeConfig();
 </script>
 
 <template>
-	<div class="py-5 md:py-16">
+	<div class="py-5 md:py-32">
 		<div
 			id="pricing"
 			class="container mt-20"
@@ -60,7 +60,7 @@ const runtimeConfig = useRuntimeConfig();
 			<div
 				class="rounded-4xl container mt-6 flex flex-col items-center justify-between gap-5 bg-white px-6 py-6 md:mt-10 md:flex-row md:px-10 md:py-10"
 			>
-				<h1 class="text-xl font-semibold md:text-2xl">
+				<h1 class="text-xl font-semibold max-sm:text-center md:text-2xl">
 					Book Our AI Agent Discovery Call Today.
 				</h1>
 				<a

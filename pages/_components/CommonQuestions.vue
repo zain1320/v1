@@ -4,13 +4,15 @@ import Question from './Question.vue';
 
 <template>
 	<section
-		class="bg-[#f4f4f4] py-10 font-Poppins"
+		class="bg-[#f4f4f4] py-20 font-Poppins"
 		data-aos="fade-up"
 		data-aos-offset="400"
 		data-aos-duration="1000"
 	>
 		<div class="container">
-			<h1 class="text-4xl font-semibold">Common Questions</h1>
+			<h1 class="text-4xl font-semibold max-sm:text-center">
+				Common Questions
+			</h1>
 			<div class="mt-10 grid gap-5 md:grid-cols-2">
 				<div class="flex flex-col gap-5 *:w-full">
 					<Question>

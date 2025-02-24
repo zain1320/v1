@@ -44,7 +44,7 @@ const runtimeConfig = useRuntimeConfig();
 						:href="runtimeConfig.public.calendly"
 					>
 						<button
-							class="flex cursor-pointer items-center gap-2 rounded-full border border-[#fbfbfb] bg-black px-8 py-4 font-semibold text-white transition-all duration-200 hover:px-10"
+							class="flex cursor-pointer items-center gap-2 rounded-full border border-[#fbfbfb] bg-black px-8 py-4 font-semibold text-white transition-all duration-200 hover:px-10 max-sm:mx-auto"
 						>
 							<img
 								src="https://cdn.prod.website-files.com/66b3f7d1ff69e1e7133402fc/66b3f7d1ff69e1e71334038a_Rocket%20Launch.svg"

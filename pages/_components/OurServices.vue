@@ -10,7 +10,7 @@ const runtimeConfig = useRuntimeConfig();
 		data-aos-duration="1000"
 	>
 		<div class="container mb-20">
-			<h1 class="mb-10 pt-10 text-[34px] font-semibold max-md:text-center">
+			<h1 class="mb-14 pt-20 text-[34px] font-semibold max-md:text-center">
 				Our
 				<span
 					class="border-l-[4px] border-[#3a2db6] bg-gradient-to-r from-[#1023d052] to-[#3734980a] pl-[8px] pr-[8px]"
@@ -21,7 +21,7 @@ const runtimeConfig = useRuntimeConfig();
 				<div class="rounded-[32px] border border-[#eee] bg-[#fbfbfb] p-3 pb-10">
 					<div class="rounded-[20px] border border-[#f4f4f4] bg-[#ffffff] p-4">
 						<div
-							class="mb-4 flex items-center justify-between gap-3 md:justify-normal"
+							class="mb-4 flex items-center justify-between gap-3 max-sm:flex-col md:justify-normal"
 						>
 							<h2 class="text-xl font-medium">AI Text Chatbots</h2>
 							<p
@@ -33,7 +33,9 @@ const runtimeConfig = useRuntimeConfig();
 						<h1 class="mb-6 text-2xl font-semibold md:w-[70%]">
 							Next-Level Customer Engagement.
 						</h1>
-						<div class="my-4 mt-10 flex items-end gap-1">
+						<div
+							class="my-4 mt-10 flex items-end gap-1 max-sm:flex-col max-sm:items-start"
+						>
 							<h2 class="text-2xl font-semibold">Starting From CAD $499</h2>
 							<p class="leading font-semibold">setup fee</p>
 						</div>
@@ -80,7 +82,7 @@ const runtimeConfig = useRuntimeConfig();
 				>
 					<div class="rounded-[20px] border border-[#323232] bg-[#323232] p-4">
 						<div
-							class="mb-4 flex items-center justify-between gap-3 md:justify-normal"
+							class="mb-4 flex items-center justify-between gap-3 max-sm:flex-col md:justify-normal"
 						>
 							<h2 class="text-xl font-medium text-white">AI Voice Agents</h2>
 							<p
@@ -93,7 +95,9 @@ const runtimeConfig = useRuntimeConfig();
 							<span class="text-[#a1a1a1]">Fully automate </span>your phone
 							calls.
 						</h1>
-						<div class="my-4 mt-10 flex items-end gap-1">
+						<div
+							class="my-4 mt-10 flex items-end gap-1 max-sm:flex-col max-sm:items-start"
+						>
 							<h2 class="text-2xl font-semibold text-white">
 								Starting From CAD $1,999
 							</h2>

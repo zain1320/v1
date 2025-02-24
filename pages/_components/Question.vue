@@ -14,11 +14,11 @@ const isExpanded = ref(false);
 			</span>
 			<div class="relative w-10 self-center">
 				<div
-					class="bg-Black absolute top-1/2 left-1/2 h-[1px] w-4 -translate-x-1/2 -translate-y-1/2 rotate-90 transition duration-300"
-					:class="isExpanded && 'rotate-180'"
+					class="absolute left-1/2 top-1/2 h-[1px] w-4 -translate-x-1/2 -translate-y-1/2 bg-Black transition duration-300"
+					:class="isExpanded ? 'rotate-180' : 'rotate-90'"
 				/>
 				<div
-					class="bg-Black absolute top-1/2 left-1/2 h-[1px] w-4 -translate-x-1/2 -translate-y-1/2"
+					class="absolute left-1/2 top-1/2 h-[1px] w-4 -translate-x-1/2 -translate-y-1/2 bg-Black"
 				/>
 			</div>
 		</h1>

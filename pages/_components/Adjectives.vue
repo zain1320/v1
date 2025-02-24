@@ -27,7 +27,7 @@ const _ltrAdjectives = [
 			direction="reverse"
 		>
 			<div
-				class="flex flex-nowrap overflow-hidden *:px-2 *:pt-2 *:pb-3 *:text-6xl *:leading-[1.1] *:font-semibold"
+				class="flex flex-nowrap overflow-hidden *:px-2 *:pb-3 *:pt-2 *:text-4xl *:font-semibold *:leading-[1.1] md:*:text-6xl"
 			>
 				<h1
 					class="border-l-4 border-red-400 bg-gradient-to-r from-red-200 to-red-100"
@@ -67,7 +67,7 @@ const _ltrAdjectives = [
 			clone
 		>
 			<div
-				class="flex flex-nowrap overflow-hidden *:px-2 *:pt-2 *:pb-3 *:text-6xl *:leading-[1.1] *:font-semibold"
+				class="flex flex-nowrap overflow-hidden *:px-2 *:pb-3 *:pt-2 *:text-4xl *:font-semibold *:leading-[1.1] md:*:text-6xl"
 			>
 				<h1
 					class="border-l-4 border-red-400 bg-gradient-to-r from-red-200 to-red-100"

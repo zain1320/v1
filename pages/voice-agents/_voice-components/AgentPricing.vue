@@ -23,7 +23,7 @@ const runtimeConfig = useRuntimeConfig();
 				class="rounded-[20px] border border-[#323232] bg-[#323232] p-6 md:p-8"
 			>
 				<div
-					class="mb-4 flex items-center justify-between gap-3 md:justify-normal"
+					class="mb-4 flex items-center justify-between gap-3 max-sm:flex-col md:justify-normal"
 				>
 					<h2 class="text-xl font-medium text-white">AI Voice Agents</h2>
 					<p
@@ -48,7 +48,7 @@ const runtimeConfig = useRuntimeConfig();
 					:href="runtimeConfig.public.calendly"
 				>
 					<button
-						class="flex cursor-pointer items-center gap-2 rounded-full border border-[#fbfbfb] bg-[#fbfbfb] px-8 py-4 font-semibold transition-all duration-200 hover:px-10"
+						class="flex cursor-pointer items-center gap-2 rounded-full border border-[#fbfbfb] bg-[#fbfbfb] px-8 py-4 font-semibold transition-all duration-200 hover:px-10 max-sm:mx-auto"
 					>
 						<img
 							src="https://cdn.prod.website-files.com/66b3f7d1ff69e1e7133402fc/66b3f7d1ff69e1e71334038f_Rocket%20Launch.svg"

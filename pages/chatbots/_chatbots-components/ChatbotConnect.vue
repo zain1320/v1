@@ -13,7 +13,9 @@ const runtimeConfig = useRuntimeConfig();
 			<div
 				class="mt-16 flex items-start justify-start gap-5 max-sm:flex-col md:items-center md:justify-between"
 			>
-				<h1 class="text-xl font-semibold max-sm:mb-5 max-sm:ml-16 md:text-4xl">
+				<h1
+					class="text-xl font-semibold max-sm:mb-5 max-sm:self-center md:text-4xl"
+				>
 					Let's
 					<span
 						class="border-l-[4px] border-[#2310d0] bg-gradient-to-r from-[#1023d052] to-[#3734980a] pl-[8px] pr-[8px]"

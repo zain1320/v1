@@ -4,16 +4,16 @@ const runtimeConfig = useRuntimeConfig();
 
 <template>
 	<div
-		class="py-15 container flex flex-col items-center font-Poppins text-Black"
+		class="container flex flex-col items-center py-20 font-Poppins text-Black"
 	>
 		<NuxtLink to="/">
 			<img
-				src="/images/pacifiq_logo.png"
+				src="/images/pacifiqlogo1.png"
 				alt=""
-				class="h-auto max-w-[325px] cursor-pointer transition-all hover:scale-[120%]"
+				class="max-w-64 cursor-pointer transition-all hover:scale-110"
 			/>
 		</NuxtLink>
-		<h3 class="my-5 mt-10 text-lg font-semibold">
+		<h3 class="my-5 mt-16 text-lg font-semibold">
 			Helping Businesses Transition to AI
 		</h3>
 		<div class="flex flex-col items-center">
@@ -21,14 +21,14 @@ const runtimeConfig = useRuntimeConfig();
 				class="max-w-sm text-center font-Poppins text-4xl font-bold leading-snug md:text-7xl"
 			>
 				Next-Gen
+				<span
+					class="max-w-xl whitespace-nowrap border-l-[4px] border-[#2310d0] bg-gradient-to-r from-[#1023d052] to-[#3734980a] pl-[8px] pr-[8px] text-center"
+				>
+					AI Voice Agents
+				</span>
 			</h1>
-			<span
-				class="max-w-xl whitespace-nowrap border-l-[4px] border-[#2310d0] bg-gradient-to-r from-[#1023d052] to-[#3734980a] pl-[8px] pr-[8px] text-center font-Poppins text-5xl font-bold leading-snug md:text-7xl"
-			>
-				AI Voice Agents
-			</span>
 		</div>
-		<div class="mt-5 gap-3 *:my-3 max-sm:w-full max-sm:*:mx-auto sm:flex">
+		<div class="mt-5 gap-3 max-sm:w-full max-sm:*:mx-auto sm:flex">
 			<a
 				class="block max-sm:w-full max-sm:*:w-full"
 				:href="runtimeConfig.public.calendly"
