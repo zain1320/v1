@@ -4,7 +4,7 @@ const runtimeConfig = useRuntimeConfig();
 
 <template>
 	<div
-		class="container flex flex-col items-center pb-40 pt-4 font-Poppins text-Black md:pb-28"
+		class="container flex flex-col items-center pb-40 pt-4 font-Poppins text-Black md:pb-14"
 	>
 		<NuxtLink to="/">
 			<img
@@ -25,7 +25,7 @@ const runtimeConfig = useRuntimeConfig();
 			<span
 				class="max-w-xl whitespace-nowrap border-l-[4px] border-[#2310d0] bg-gradient-to-r from-[#1023d052] to-[#3734980a] pl-[8px] pr-[8px] text-center font-Poppins text-5xl font-bold leading-snug md:text-7xl"
 			>
-				AI Text Chatbots
+				Outbound Agents
 			</span>
 		</div>
 		<div class="mt-5 gap-3 *:my-3 max-sm:w-full max-sm:*:mx-auto sm:flex">

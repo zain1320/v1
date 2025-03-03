@@ -9,15 +9,6 @@ const runtimeConfig = useRuntimeConfig();
 		data-aos-offset="400"
 		data-aos-duration="1000"
 	>
-		<h1
-			class="mb-16 text-center text-2xl font-semibold md:mb-24 md:text-start md:text-5xl"
-		>
-			Voice Agent
-			<span
-				class="border-l-[4px] border-[#3a2db6] bg-gradient-to-r from-[#1023d052] to-[#3734980a] pl-[8px] pr-[8px]"
-				>Pricing</span
-			>
-		</h1>
 		<div class="rounded-[32px] border border-[#1b1b1b] bg-[#1b1b1b] p-3 pb-10">
 			<div
 				class="rounded-[20px] border border-[#323232] bg-[#323232] p-6 md:p-8"
@@ -25,11 +16,11 @@ const runtimeConfig = useRuntimeConfig();
 				<div
 					class="mb-4 flex items-center justify-between gap-3 md:justify-normal"
 				>
-					<h2 class="text-xl font-medium text-white">AI Voice Agents</h2>
+					<h2 class="text-xl font-medium text-white">Inbound Voice Agents</h2>
 					<p
-						class="rounded-full bg-[#fbfbfb1a] px-3 py-1 text-sm font-semibold text-[#fbfbfb99]"
+						class="rounded-full bg-[#468ce7ee] px-3 py-1 text-sm font-semibold text-[#fbfbfb]"
 					>
-						Inbound & Outbound Calls
+						Recieve Calls
 					</p>
 				</div>
 				<h1 class="mb-6 text-2xl font-semibold text-white md:w-[70%]">
@@ -37,7 +28,7 @@ const runtimeConfig = useRuntimeConfig();
 				</h1>
 				<div class="my-4 mt-10 flex items-end gap-1">
 					<h2 class="pb-3 text-2xl font-semibold text-white">
-						Starting From CAD $1,999
+						Starting From CAD $2,999
 						<span class="leading text-xl font-semibold text-[#8b8b8b]"
 							>setup&nbsp;fee</span
 						>
@@ -63,11 +54,13 @@ const runtimeConfig = useRuntimeConfig();
 			>
 				<div class="flex items-start">
 					<div class="mr-2 mt-2 h-[7px] w-[7px] rounded-full bg-[#b8b8b8]" />
-					<div class="font-semibold md:w-[70%]">Advanced Automations</div>
+					<div class="font-semibold md:w-[70%]">
+						Never miss customer inquirys
+					</div>
 				</div>
 				<div class="flex items-start">
 					<p class="mr-2 mt-2 h-[7px] w-[7px] rounded-full bg-[#b8b8b8]" />
-					<p class="font-semibold md:w-[70%]">High Quality Sound</p>
+					<p class="font-semibold md:w-[70%]">Seamless CRM Integration</p>
 				</div>
 			</div>
 			<div class="mt-2 grid grid-cols-1 px-5 text-[#fbfbfb99] sm:grid-cols-2">

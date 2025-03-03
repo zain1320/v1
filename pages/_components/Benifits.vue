@@ -9,11 +9,12 @@ const runtimeConfig = useRuntimeConfig();
 		data-aos-duration="1000"
 	>
 		<div
-			class="mb- flex flex-col items-start justify-between gap-14 md:flex-row md:items-center md:gap-0"
+			class="mb-10 flex w-full flex-col items-center justify-between md:mb-16 md:flex-row"
 		>
-			<h1 class="mx-auto text-2xl font-semibold md:mx-0 md:text-5xl">
+			<h1 class="text-2xl font-semibold md:text-5xl">
 				Benefits that Drive Success
 			</h1>
+
 			<a
 				:href="runtimeConfig.public.calendly"
 				target="_blank"
@@ -28,6 +29,7 @@ const runtimeConfig = useRuntimeConfig();
 				</Button>
 			</a>
 		</div>
+
 		<div class="rounded-4xl border border-gray-200 bg-white p-9">
 			<div class="grid grid-cols-1 md:grid-cols-2">
 				<div class="">

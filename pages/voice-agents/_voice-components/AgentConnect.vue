@@ -3,7 +3,7 @@ const runtimeConfig = useRuntimeConfig();
 </script>
 
 <template>
-	<section class="mt-32 pb-14 pt-20">
+	<section class="mt-32 pb-14 pt-2">
 		<div
 			class="container"
 			data-aos="fade-up"

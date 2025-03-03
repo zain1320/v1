@@ -16,8 +16,8 @@ import Question from './Question.vue';
 					<Question>
 						<template #heading>What types of AI Agents do you offer?</template>
 						<template #text>
-							We provide two types of AI Agents. AI Voice Agents & AI Text
-							Chatbots.
+							We specialize in building AI Voice Agents, for either inbound or
+							outbound calls.
 						</template>
 					</Question>
 					<Question>

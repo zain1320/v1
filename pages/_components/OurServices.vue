@@ -23,18 +23,18 @@ const runtimeConfig = useRuntimeConfig();
 						<div
 							class="mb-4 flex items-center justify-between gap-3 md:justify-normal"
 						>
-							<h2 class="text-xl font-medium">AI Text Chatbots</h2>
+							<h2 class="text-xl font-medium">Inbound Voice Agents</h2>
 							<p
 								class="rounded-full bg-[#1020d01a] px-3 py-1 text-sm font-semibold text-[#0a1195]"
 							>
-								Website/Social Media
+								Recieve Calls
 							</p>
 						</div>
 						<h1 class="mb-6 text-2xl font-semibold md:w-[70%]">
-							Next-Level Customer Engagement.
+							Your AI-powered receptionist—always on, always ready!
 						</h1>
 						<div class="my-4 mt-10 flex items-end gap-1">
-							<h2 class="text-2xl font-semibold">Starting From CAD $499</h2>
+							<h2 class="text-2xl font-semibold">Starting From CAD $2,999</h2>
 							<p class="leading font-semibold">setup fee</p>
 						</div>
 						<a
@@ -42,8 +42,13 @@ const runtimeConfig = useRuntimeConfig();
 							target="_blank"
 						>
 							<button
-								class="cursor-pointer rounded-full bg-Black px-6 py-3 font-semibold text-white transition-all duration-200 hover:px-9"
+								class="flex cursor-pointer items-center gap-2 rounded-full bg-black px-6 py-3 font-semibold text-white transition-all duration-200 hover:px-9"
 							>
+								<img
+									src="https://cdn.prod.website-files.com/66b3f7d1ff69e1e7133402fc/66b3f7d1ff69e1e71334038f_Rocket%20Launch.svg"
+									alt=""
+									class="invert"
+								/>
 								Get Started
 							</button>
 						</a>
@@ -53,11 +58,13 @@ const runtimeConfig = useRuntimeConfig();
 							<div
 								class="mr-2 mt-2 h-[7px] w-[7px] rounded-full bg-[#b8b8b8]"
 							/>
-							<div class="font-semibold md:w-[70%]">Advanced Automations</div>
+							<div class="font-semibold md:w-[80%]">
+								Never miss customer inquirys
+							</div>
 						</div>
 						<div class="flex items-start">
 							<p class="mr-2 mt-2 h-[7px] w-[7px] rounded-full bg-[#b8b8b8]" />
-							<p class="font-semibold md:w-[70%]">Social Media Integrations</p>
+							<p class="font-semibold md:w-[70%]">Seamless CRM Integration</p>
 						</div>
 					</div>
 					<div class="mt-2 grid grid-cols-2 gap-2 px-5">
@@ -82,20 +89,22 @@ const runtimeConfig = useRuntimeConfig();
 						<div
 							class="mb-4 flex items-center justify-between gap-3 md:justify-normal"
 						>
-							<h2 class="text-xl font-medium text-white">AI Voice Agents</h2>
+							<h2 class="text-xl font-medium text-white">
+								Outbound Voice Agents
+							</h2>
 							<p
-								class="rounded-full bg-[#fbfbfb1a] px-3 py-1 text-sm font-semibold text-[#fbfbfb99]"
+								class="rounded-full bg-[#468ce7ee] px-3 py-1 text-sm font-semibold text-[#fbfbfb]"
 							>
-								Inbound & Outbound Calls
+								Send Calls
 							</p>
 						</div>
 						<h1 class="mb-6 text-2xl font-semibold text-white md:w-[70%]">
-							<span class="text-[#a1a1a1]">Fully automate </span>your phone
-							calls.
+							<span class="text-[#a1a1a1]">Fully automate </span>reminders,
+							follow-ups & more.
 						</h1>
 						<div class="my-4 mt-10 flex items-end gap-1">
 							<h2 class="text-2xl font-semibold text-white">
-								Starting From CAD $1,999
+								Starting From CAD $2,999
 							</h2>
 							<p class="leading font-semibold text-[#8b8b8b]">setup fee</p>
 						</div>
@@ -104,8 +113,13 @@ const runtimeConfig = useRuntimeConfig();
 							target="_blank"
 						>
 							<button
-								class="cursor-pointer rounded-full border border-[#fbfbfb] bg-[#fbfbfb] px-6 py-3 font-semibold transition-all duration-200 hover:px-9"
+								class="flex cursor-pointer items-center gap-2 rounded-full border border-black bg-white px-6 py-3 font-semibold text-black transition-all duration-200 hover:px-9"
 							>
+								<img
+									src="https://cdn.prod.website-files.com/66b3f7d1ff69e1e7133402fc/66b3f7d1ff69e1e71334038f_Rocket%20Launch.svg"
+									alt=""
+									class="h-5 w-5"
+								/>
 								Get Started
 							</button>
 						</a>
@@ -115,7 +129,7 @@ const runtimeConfig = useRuntimeConfig();
 							<div
 								class="mr-2 mt-2 h-[7px] w-[7px] rounded-full bg-[#b8b8b8]"
 							/>
-							<div class="font-semibold md:w-[70%]">Advanced Automations</div>
+							<div class="font-semibold md:w-[70%]">Automated Follow-ups</div>
 						</div>
 						<div class="flex items-start">
 							<p class="mr-2 mt-2 h-[7px] w-[7px] rounded-full bg-[#b8b8b8]" />
@@ -137,7 +151,7 @@ const runtimeConfig = useRuntimeConfig();
 						</div>
 						<div class="mt-2 flex items-center">
 							<p class="mr-2 h-[7px] w-[7px] rounded-full bg-[#b8b8b8]" />
-							<p class="font-semibold md:w-[70%]">Latest AI Models</p>
+							<p class="font-semibold md:w-[70%]">Targeted Lead Nurturing</p>
 						</div>
 					</div>
 				</div>

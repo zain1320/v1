@@ -4,7 +4,7 @@ import Question from '@/pages/_components/Question.vue';
 
 <template>
 	<section
-		class="font-Poppins bg-gray-100 py-24 md:px-6 lg:px-24"
+		class="bg-gray-100 py-24 font-Poppins md:px-6 lg:px-24"
 		data-aos="fade-up"
 		data-aos-offset="400"
 		data-aos-duration="1000"
@@ -18,8 +18,8 @@ import Question from '@/pages/_components/Question.vue';
 					<Question>
 						<template #heading>What types of AI Agents do you offer?</template>
 						<template #text>
-							We provide two types of AI Agents. AI Voice Agents & AI Text
-							Chatbots.
+							We specialize in building AI Voice Agents, for either inbound or
+							outbound calls.
 						</template>
 					</Question>
 					<Question>

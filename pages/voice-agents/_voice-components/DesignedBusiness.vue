@@ -3,7 +3,7 @@ const runtimeConfig = useRuntimeConfig();
 </script>
 
 <template>
-	<div class="py-5 md:py-16">
+	<div class="py-5 md:py-4">
 		<div
 			id="pricing"
 			class="container mt-20"
@@ -45,15 +45,37 @@ const runtimeConfig = useRuntimeConfig();
 			>
 				<div class="rounded-[20px] border border-gray-100 bg-white p-6">
 					<h1 class="mb-7 text-3xl font-semibold max-sm:text-2xl">
-						Outbound Phone Agent
+						Appointment Setter
 					</h1>
 					<p class="font-medium">
-						Outbound AI Phone Agents are AI-driven systems that autonomously
-						initiate phone calls to customers for tasks like appointment
-						reminders. They use natural language processing and speech synthesis
-						to engage in conversations, answer questions, and record responses.
-						These agents help businesses maintain consistent communication with
-						customers.
+						An AI appointment setter voice agent streamlines scheduling by
+						quickly handling inbound calls, reducing wait times for customers.
+						It ensures accuracy by integrating with calendars, preventing double
+						bookings and scheduling conflicts. The AI operates 24/7, allowing
+						customers to book, reschedule, or cancel appointments at their
+						convenience. Additionally, it enhances efficiency and cost savings
+						by automating routine scheduling tasks, freeing up human staff for
+						more complex interactions.
+					</p>
+				</div>
+				<div class="rounded-[20px] border border-gray-100 bg-white p-6">
+					<h1 class="mb-7 text-3xl font-semibold max-sm:text-2xl">
+						Virtual Receptionist
+					</h1>
+					<p class="font-medium">
+						An AI voice agent handling reception work improves efficiency by
+						instantly answering calls, reducing wait times, and handling
+						multiple inquiries simultaneously. It ensures 24/7 availability,
+						providing consistent and accurate information without breaks or
+						fatigue
+					</p>
+				</div>
+				<div class="rounded-[20px] border border-gray-100 bg-white p-6">
+					<h1 class="mb-7 text-3xl font-semibold max-sm:text-2xl">
+						Your custom agent
+					</h1>
+					<p class="font-medium">
+						An AI voice agent designed to handle what you require the most!
 					</p>
 				</div>
 			</div>

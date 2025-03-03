@@ -3,115 +3,110 @@ const runtimeConfig = useRuntimeConfig();
 </script>
 
 <template>
-	<div class="">
+	<div class="py-5 md:py-4">
 		<div
 			id="pricing"
-			class="container py-36 md:px-24 md:pt-48"
+			class="container mt-20"
 			data-aos="fade-up"
 			data-aos-offset="400"
 			data-aos-duration="1000"
 		>
 			<h1
-				class="text-center text-2xl font-semibold max-sm:pb-20 md:mb-24 md:text-start md:text-5xl"
+				class="mb-14 text-center text-2xl font-semibold max-sm:mx-auto md:mb-24 md:w-full md:text-5xl"
 			>
-				Chatbot
+				Designed for any
 				<span
-					class="border-l-[4px] border-[#2310d0] bg-gradient-to-r from-[#1023d052] to-[#3734980a] pl-[8px] pr-[8px]"
-					>Pricing</span
+					class="border-l-[4px] border-[#3a2db6] bg-gradient-to-r from-[#1023d052] to-[#3734980a] pl-[8px] pr-[8px]"
+					>Business</span
 				>
 			</h1>
-			<div class="rounded-[32px] border border-[#eee] bg-[#fbfbfb] p-3 pb-10">
-				<div class="rounded-[20px] border border-[#f4f4f4] bg-[#ffffff] p-7">
-					<div
-						class="mb-4 flex items-center justify-between gap-3 md:justify-normal"
-					>
-						<h2 class="text-xl font-medium">AI Text Chatbots</h2>
-						<p
-							class="rounded-full bg-[#101ad01a] px-3 py-1 text-sm font-semibold text-[#0a1f95]"
-						>
-							Website/Social Media
-						</p>
-					</div>
-					<h1 class="mb-6 text-2xl font-semibold md:w-[70%]">
-						Next-Level Customer Engagement.
+			<div
+				id="pricing"
+				class="mt-5 rounded-[32px] border border-gray-100 bg-[#fbfbfb] p-3"
+			>
+				<div class="rounded-[20px] border border-gray-100 bg-white p-6">
+					<h1 class="mb-7 text-3xl font-semibold max-sm:text-2xl">
+						Outbound Phone Agent
 					</h1>
-					<div class="my-4 mt-10 flex items-end gap-1">
-						<h2 class="pb-3 text-2xl font-semibold">
-							Starting From CAD $499
-							<span class="leading text-xl font-semibold text-[#8b8b8b]"
-								>setup&nbsp;fee</span
-							>
-						</h2>
-					</div>
-					<a
-						target="_blank"
-						:href="runtimeConfig.public.calendly"
-					>
-						<button
-							class="flex cursor-pointer items-center gap-2 rounded-full border border-[#fbfbfb] bg-black px-8 py-4 font-semibold text-white transition-all duration-200 hover:px-10"
-						>
-							<img
-								src="https://cdn.prod.website-files.com/66b3f7d1ff69e1e7133402fc/66b3f7d1ff69e1e71334038a_Rocket%20Launch.svg"
-								alt=""
-								class=""
-							/>
-							Get Started
-						</button>
-					</a>
-				</div>
-				<div class="mt-6 grid grid-cols-1 gap-2 px-5 sm:grid-cols-2">
-					<div class="flex items-start">
-						<div class="mr-2 mt-2 h-[7px] w-[7px] rounded-full bg-[#b8b8b8]" />
-						<div class="font-semibold md:w-[70%]">Advanced Automations</div>
-					</div>
-					<div class="flex items-start">
-						<p class="mr-2 mt-2 h-[7px] w-[7px] rounded-full bg-[#b8b8b8]" />
-						<p class="font-semibold md:w-[70%]">Social Media Integrations</p>
-					</div>
-				</div>
-				<div class="mt-1 grid grid-cols-1 gap-2 px-5 sm:grid-cols-2">
-					<div class="flex items-center">
-						<p class="mr-2 h-[7px] w-[7px] rounded-full bg-[#b8b8b8]" />
-						<p class="font-semibold md:w-[70%]">Rigorous Testing</p>
-					</div>
-					<div class="flex items-center">
-						<p class="mr-2 h-[7px] w-[7px] rounded-full bg-[#b8b8b8]" />
-						<p class="font-semibold md:w-[70%]">Latest AI Models</p>
-					</div>
-				</div>
-				<div class="mt-2 flex items-center px-5">
-					<p class="mr-2 h-[7px] w-[7px] rounded-full bg-[#b8b8b8]" />
-					<p class="font-semibold md:w-[70%]">24/7 Priority Support</p>
+					<p class="font-medium">
+						Outbound AI Phone Agents are intelligent virtual systems that
+						leverage artificial intelligence, including natural language
+						processing and speech synthesis, to initiate and manage outgoing
+						calls. These agents can conduct follow-ups, schedule appointments,
+						send reminders, qualify leads, and even handle sales
+						interactions—all without human intervention. By automating outbound
+						communications, businesses can enhance customer engagement, improve
+						conversion rates, and streamline operations while maintaining a
+						consistent and professional touch.
+					</p>
 				</div>
 			</div>
-			<div class="mt-7 rounded-[32px] border border-gray-100 bg-[#fbfbfb] p-3">
+			<div
+				id="pricing"
+				class="mt-5 rounded-[32px] border border-gray-100 bg-[#fbfbfb] p-3"
+			>
 				<div class="rounded-[20px] border border-gray-100 bg-white p-6">
-					<h1
-						class="mb-7 text-3xl font-semibold max-sm:max-w-64 max-sm:text-2xl"
-					>
-						Unsure how AI could be used in your business?
+					<h1 class="mb-7 text-3xl font-semibold max-sm:text-2xl">
+						Instant Follow-Ups
 					</h1>
-					<p class="font-semibold">
-						If you're unsure how AI could benefit your business, feel free to
-						book a 30-minute or 1-hour consultation session with Zain. During
-						the session, you'll learn how we've successfully implemented AI in
-						businesses similar to yours, providing insights to help you make a
-						more informed decision.
+					<p class="font-medium">
+						AI voice agents provide instant follow-ups after a user signs up,
+						ensuring quick engagement and personalized responses. These agents
+						can answer common questions, confirm details, and guide users
+						through the next steps in real time. By using natural language
+						processing, they create a seamless and human-like interaction,
+						improving customer experience. Businesses benefit from increased
+						efficiency and higher conversion rates as AI voice agents automate
+						and streamline the follow-up process.
 					</p>
-					<a
-						target="_blank"
-						:href="runtimeConfig.public.calendly"
-						class="cursor-pointer"
-					>
-						<Button class="mt-10 flex items-center gap-3">
-							<img
-								src="https://cdn.prod.website-files.com/66b3f7d1ff69e1e7133402fc/66b3f7d1ff69e1e713340363_Phone.svg"
-								alt=""
-							/>
-							<span class="shrink-1"> Book 1:1 Consultation Session </span>
-						</Button>
-					</a>
 				</div>
+				<div class="rounded-[20px] border border-gray-100 bg-white p-6">
+					<h1 class="mb-7 text-3xl font-semibold max-sm:text-2xl">
+						Lead Reactivation
+					</h1>
+					<p class="font-medium">
+						Outbound AI voice agents for lead reactivation engage past prospects
+						who showed interest but never converted. These agents make
+						personalized calls, rekindling interest by offering updates, special
+						offers, or addressing previous objections. By automating follow-ups,
+						businesses can efficiently reconnect with dormant leads without
+						overloading their sales teams. This process increases conversion
+						rates and maximizes the value of existing lead databases.
+					</p>
+				</div>
+				<div class="rounded-[20px] border border-gray-100 bg-white p-6">
+					<h1 class="mb-7 text-3xl font-semibold max-sm:text-2xl">
+						Lead Qualifier
+					</h1>
+					<p class="font-medium">
+						The AI agent engages them in a natural conversation, asking key
+						qualifying questions to assess their needs and intent. It then
+						categorizes leads based on their responses, ensuring only
+						high-quality prospects are passed to human sales teams. This
+						automated process saves time, increases efficiency, and helps
+						businesses focus on the most promising opportunities.
+					</p>
+				</div>
+			</div>
+			<div
+				class="rounded-4xl container mt-6 flex flex-col items-center justify-between gap-5 bg-white px-6 py-6 md:mt-10 md:flex-row md:px-10 md:py-10"
+			>
+				<h1 class="text-xl font-semibold md:text-2xl">
+					Book Our AI Agent Discovery Call Today.
+				</h1>
+				<a
+					target="_blank"
+					:href="runtimeConfig.public.calendly"
+					class="cursor-pointer"
+				>
+					<Button class="flex items-center gap-3">
+						<Icon
+							name="mynaui:telephone"
+							size="20"
+						/>
+						Book A Call
+					</Button>
+				</a>
 			</div>
 		</div>
 	</div>

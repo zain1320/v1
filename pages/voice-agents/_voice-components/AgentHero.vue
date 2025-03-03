@@ -20,7 +20,7 @@ const runtimeConfig = useRuntimeConfig();
 			<h1
 				class="max-w-sm text-center font-Poppins text-4xl font-bold leading-snug md:text-7xl"
 			>
-				Next-Gen
+				Inbound
 			</h1>
 			<span
 				class="max-w-xl whitespace-nowrap border-l-[4px] border-[#2310d0] bg-gradient-to-r from-[#1023d052] to-[#3734980a] pl-[8px] pr-[8px] text-center font-Poppins text-5xl font-bold leading-snug md:text-7xl"

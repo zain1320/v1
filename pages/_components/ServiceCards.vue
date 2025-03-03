@@ -28,20 +28,19 @@ const runtimeConfig = useRuntimeConfig();
 				url="/voice-agents"
 				class="md:col-start-1 md:-col-end-1"
 			>
-				<template #heading>AI Voice Agents</template>
+				<template #heading>Inbound Calls</template>
 				<template #paragraph>
-					Next Level AI Voice Agents For Automated Inbound and Outbound Phone
-					Calls
+					Human like virtual receptionist to handle your incoming calls.
 				</template>
 			</ServicesImage>
 			<ServicesImage
-				image="/images/chatbot-stock.jpg"
+				image="/images/outbound-call.jpg"
 				url="/chatbots"
 				class="md:col-start-2 md:col-end-3"
 			>
-				<template #heading>AI Text Chatbots</template>
+				<template #heading>Outbound Calls</template>
 				<template #paragraph>
-					AI Text Agents for Your Website, Social Media, Emails, SMS & More.
+					Fully automate reminders, follow-ups & more.
 				</template>
 			</ServicesImage>
 			<ServicesImage

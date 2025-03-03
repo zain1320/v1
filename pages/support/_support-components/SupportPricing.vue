@@ -6,19 +6,20 @@ const runtimeConfig = useRuntimeConfig();
 	<div class="">
 		<div
 			id="pricing"
-			class="container py-36 md:px-8 md:pt-48 lg:px-24"
+			class="container py-20 md:px-8 md:pt-32 lg:px-24"
 			data-aos="fade-up"
 			data-aos-offset="400"
 			data-aos-duration="1000"
 		>
 			<h1
-				class="text-center text-3xl font-semibold max-sm:pb-20 md:mb-24 md:text-start md:text-5xl"
+				class="mb-8 flex justify-center gap-x-4 text-center text-3xl font-semibold md:mb-12 md:text-5xl"
 			>
 				Support
 				<span
-					class="border-l-[4px] border-[#2310d0] bg-gradient-to-r from-[#1023d052] to-[#3734980a] pl-[8px] pr-[8px]"
-					>Packages</span
+					class="border-l-[4px] border-[#2310d0] bg-gradient-to-r from-[#1023d052] to-[#3734980a] px-[8px]"
 				>
+					Packages
+				</span>
 			</h1>
 			<div class="rounded-[32px] border border-[#eee] bg-[#fbfbfb] p-3 pb-10">
 				<div class="rounded-[20px] border border-[#f4f4f4] bg-[#ffffff] p-8">
@@ -37,7 +38,7 @@ const runtimeConfig = useRuntimeConfig();
 					</h1>
 					<div class="my-4 mt-10 flex items-center gap-2">
 						<span class="leading text-[15px] font-semibold">Ranging From</span>
-						<h2 class="mb-1 text-3xl font-semibold">$500 - $2,500/month</h2>
+						<h2 class="mb-1 text-3xl font-semibold">$500 - $2,000/month</h2>
 					</div>
 					<a
 						target="_blank"

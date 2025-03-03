@@ -4,7 +4,7 @@ const runtimeConfig = useRuntimeConfig();
 
 <template>
 	<section
-		class="bg-gray-200 pb-10 pt-20 md:px-6 lg:px-24"
+		class="bg-gray-200 pb-10 pt-5 md:px-6 lg:px-24"
 		data-aos="fade-up"
 		data-aos-offset="400"
 		data-aos-duration="1000"
